@@ -1,0 +1,81 @@
+# Compiler files
+cache/
+out/
+
+# Ignores development broadcast logs
+!/broadcast
+/broadcast/*/31337/
+/broadcast/**/dry-run/
+
+# Docs
+docs/
+
+# Dotenv file
+.env
+
+# Foundry specific
+# Coverage reports
+coverage/
+coverage.json
+
+# Gas reports
+gas-report.txt
+
+# Foundry cache and artifacts
+cache_forge/
+out_forge/
+
+# Node modules (if using npm/yarn alongside Foundry)
+node_modules/
+
+# IDE and editor files
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# OS generated files
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+
+# Logs
+*.log
+
+# Temporary files
+*.tmp
+*.temp
+
+# Deployment artifacts
+deployments/
+deployments.json
+
+# Private keys and sensitive data
+*.pem
+*.key
+.secret
+
+# Hardhat artifacts (if migrating from Hardhat)
+artifacts/
+typechain/
+typechain-types/
+
+# Solidity coverage
+coverage/
+coverage.json
+lcov.info
+
+# Gas snapshots
+.gas-snapshot
+
+# Foundry book output
+book/
+
+# Local chain data
+anvil/
+anvil_state/
